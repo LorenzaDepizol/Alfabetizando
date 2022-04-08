@@ -1,0 +1,87 @@
+
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+  }
+  
+  .sexo {
+        /* junta os inputs */
+        float: left;
+        /* estilos adicionais */
+        border: none;
+        padding: 10px;
+        width: 200px;
+}
+  .historia {
+    margin-top: 10px;
+  }
+  
+  input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: solid 1px;
+  }
+  
+  input {
+    border: 0 none;
+    outline: 0;
+    border-bottom: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+  }
+  
+  textarea {
+    max-height: 800px;
+    max-width: 600px;
+    min-height: 700px;
+    min-width: 700px;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  p{
+    margin: 0px;
+    position: absolute;
+  }
+  
+  .baixar {
+    color: red;
+    padding: 5px 5px;
+    font-family: 'Metal Mania', cursive;
+    font-size: 25px; 
+    background-color: wheat;
+    border-radius: 5px;
+    border: solid 1px;
+    box-shadow: 1px 5px wheat;
+    transition: transform .13s cubic-bezier(.53, -0.4, .91, 2.81);
+  }
+  
+  .baixar:hover {
+    background-color:wheat;
+    cursor: pointer;  
+    transform: scale(1.07);
+  }
+  .form button {
+    font-family: 'Metal Mania', cursive;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(158, 61, 158);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: pink;
+  }

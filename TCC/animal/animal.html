@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js"></script>
+    <title>ANIMALS</title>
+</head>
+
+<body>
+    
+    <div class="conteudo">
+        <h1>QUAL É O ANIMAL?</h1>
+
+        <section class="flex">
+
+            <div>
+                <img src="animais/abelha.jpg">
+                <audio controls>
+                    <source src="audio/BEE.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="bee" onclick="bee()">BEE</button>
+                        <button class="button" id="egg" onclick="egg()">EGG</button>
+                        <button class="button" id="black" onclick="black()">BLACK</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/cachorro.png">
+                <audio controls>
+                    <source src="audio/DOG.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="dance" onclick="ErradoDance()">DANCE</button>
+                        <button class="button" id="dog" onclick="AcertoDog()">DOG</button>
+                        <button class="button" id="desk" onclick="ErradoDesk()">DESK</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/canguru.jpg">
+                <audio controls>
+                    <source src="audio/KANGAROO.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="candy" onclick="ErradoCandy()">CANDY</button>
+                        <button class="button" id="kangaroo" onclick="AcertoCanguru()">KANGAROO</button>
+                        <button class="button" id="ball" onclick="ErradoBall()">BALL</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/cavalo.jpg">
+                <audio controls>
+                    <source src="audio/HORSE.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="horse" onclick="AcertoHorse()">HORSE</button>
+                        <button class="button" id="house" onclick="ErradoHouse()">HOUSE</button>
+                        <button class="button" id="high" onclick="ErradoHigh()">HIGH</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/cobra.png">
+                <audio controls>
+                    <source src="audio/SNAKE.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="snake" onclick="AcertoSnake()">SNAKE</button>
+                        <button class="button" id="sell" onclick="ErradoSell()">SELL</button>
+                        <button class="button" id="sick" onclick="ErradoSick()">SICK</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/coelho.jpg">
+                <audio controls>
+                    <source src="audio/RABBIT.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="rich" onclick="ErradoRich()">RICH</button>
+                        <button class="button" id="road" onclick="ErradoRoad()">ROAD</button>
+                        <button class="button" id="rabbit" onclick="AcertoRabbit()">RABBIT</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/elefante.jpg">
+                <audio controls>
+                    <source src="audio/ELEPHANT.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="end" onclick="ErradoEnd()">END</button>
+                        <button class="button" id="elephant" onclick="AcertoElephant()">ELEPHANT</button>
+                        <button class="button" id="enter" onclick="ErradoEnter()">ENTER</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/formiga.png">
+                <audio controls>
+                    <source src="audio/ANT.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="ask" onclick="ErradoAsk()">ASK</button>
+                        <button class="button" id="ant" onclick="AcertoAnt()">ANT</button>
+                        <button class="button" id="and" onclick="ErradoAnd()">AND</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/gato.jpg">
+                <audio controls>
+                    <source src="audio/CAT.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="candy1" onclick="ErradoCandy1()">CANDY</button>
+                        <button class="button" id="cat" onclick="AcertoCat()">CAT</button>
+                        <button class="button" id="click" onclick="ErradoClick()">CLICK</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/leao.jpg">
+                <audio controls>
+                    <source src="audio/LION.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="luck" onclick="ErradoLuck()">LUCK</button>
+                        <button class="button" id="light" onclick="ErradoLight()">LIGHT</button>
+                        <button class="button" id="lion" onclick="AcertoLion()">LION</button>
+                    </p>
+                </center>
+            </div>
+
+            <div>
+                <img src="animais/macaco.jpg">
+                <audio controls>
+                    <source src="audio/MONKEY.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="money" onclick="ErradoMoney()">MONEY</button>
+                        <button class="button" id="math" onclick="ErradoMath()">MATH</button>
+                        <button class="button" id="monkey" onclick="AcertoMonkey()">MONKEY</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/ovelha.png">
+                <audio controls>
+                    <source src="audio/SHEEP.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="sheep" onclick="AcertoSheep()">SHEEP</button>
+                        <button class="button" id="summer" onclick="ErradoSummer()">SUMMER</button>
+                        <button class="button" id="slime" onclick="ErradoSlime()">SLIME</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/passaro.png">
+                <audio controls>
+                    <source src="audio/BIRD.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="bot" onclick="ErradoBot()">BOT</button>
+                        <button class="button" id="bird" onclick="AcertoBird()">BIRD</button>
+                        <button class="button" id="bad" onclick="ErradoBad()">BAD</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/peixe.jpg">
+                <audio controls>
+                    <source src="audio/FISH.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="feet" onclick="ErradoFeet()">FEET</button>
+                        <button class="button" id="fit" onclick="ErradoFit()">FIT</button>
+                        <button class="button" id="fish" onclick="AcertoFish()">FISH</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/porco.png">
+                <audio controls>
+                    <source src="audio/PIG.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="pink" onclick="ErradoPink()">PINK</button>
+                        <button class="button" id="pig" onclick="AcertoPig()">PIG</button>
+                        <button class="button" id="poor" onclick="ErradoPoor()">POOR</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/rato.png">
+                <audio controls>
+                    <source src="audio/MOUSE.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="desk1" onclick="ErradoDesk1()">DESK</button>
+                        <button class="button" id="mouse" onclick="AcertoMouse()">MOUSE</button>
+                        <button class="button" id="red" onclick="ErradoRed()">RED</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/urso.png">
+                <audio controls>
+                    <source src="audio/BEAR.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="bank" onclick="ErradoBank()">BANK</button>
+                        <button class="button" id="black1" onclick="ErradoBlack1()">BLACK</button>
+                        <button class="button" id="bear" onclick="AcertoBear()">BEAR</button>
+                    </p>
+                </center>
+            </div>
+            <div>
+                <img src="animais/vaca.jpg">
+                <audio controls>
+                    <source src="audio/COW.mpeg">
+                </audio>
+                <center>
+                    <p>
+                        <button class="button" id="can" onclick="ErradoCan()">CAN</button>
+                        <button class="button" id="cook" onclick="ErradoCook()">COOK</button>
+                        <button class="button" id="cow" onclick="AcertoCow()">COW</button>
+                    </p>
+                </center>
+            </div>
+
+
+        </section>
+    </div>
+
+</body>
+
+</html>

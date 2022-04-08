@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <script src="fruit.js"></script>
+    <title>FRUITS</title>
+</head>
+<body>
+    
+    <div class="conteudo">
+     <h1>QUAL É A FRUTA?</h1>
+<section class="flex">    
+        <div>
+            <img src="frutas/abacate.jpg">
+            <audio controls>
+                <source src="audio/avocado.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="give" onclick="ErradoGive()">GIVE</button>
+                    <button class="button" id="river" onclick="ErradoRiver()">RIVER</button>
+                    <button class="button" id="avocado" onclick="AcertoAvocado()">AVOCADO</button>                    
+                </p>
+            </center>
+        </div>
+
+        <div>
+            <img src="frutas/abacaxi.jpg">
+            <audio controls>
+                <source src="audio/pineple.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="pineple" onclick="AcertoPineple()">PINEPLE</button>
+                    <button class="button" id="nose" onclick="ErradoNose()">NOSE</button>
+                    <button class="button" id="age" onclick="ErradoAge()">AGE</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/banana.jpg">
+            <audio controls>
+                <source src="audio/banana.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="see" onclick="ErradoSee()">SEE</button>
+                    <button class="button" id="beggin" onclick="ErradoBeggin()">BEGGIN</button>
+                    <button class="button" id="banana" onclick="AcertoBanana()">BANANA</button>
+                </p>
+            </center>
+        </div>
+
+        <div>
+            <img src="frutas/cereja.jpg">
+            <audio controls>
+                <source src="audio/cherry.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="now" onclick="ErradoNow()">NOW</button>
+                    <button class="button" id="cherry" onclick="AcertoCherry()">CHERRY</button>
+                    <button class="button" id="good" onclick="ErradoGood()">GOOD</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/coco.jpg">
+            <audio controls>
+                <source src="audio/coconut.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="dream" onclick="ErradoDream()">DREAM</button>
+                    <button class="button" id="side" onclick="ErradoSide()">SIDE</button>
+                    <button class="button" id="coconut" onclick="AcertoCoconut()">COCONUT</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/framboesa.jpg">
+            <audio controls>
+                <source src="audio/raspberry.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="raspberry" onclick="AcertoRaspberry()">RASPBERRY</button>
+                    <button class="button" id="snow" onclick="ErradoSnow()">SNOW</button>
+                    <button class="button" id="man" onclick="ErradoMan()">MAN</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/laranja.jpg">
+            <audio controls>
+                <source src="audio/orange.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="no" onclick="ErradoNo()">NO</button>
+                    <button class="button" id="orange" onclick="AcertoOrange()">ORANGE</button>
+                    <button class="button" id="friend" onclick="ErradoFriend()">FRIEND</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/limao.jpg">
+            <audio controls>
+                <source src="audio/lemon.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="lemon" onclick="AcertoLemon()">LEMON</button>
+                    <button class="button" id="bye" onclick="ErradoBye()">BYE</button>
+                    <button class="button" id="darling" onclick="ErradoDarling()">DARLING</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/maca.jpg">
+            <audio controls>
+                <source src="audio/apple.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="apple" onclick="AcertoApple()">APPLE</button>
+                    <button class="button" id="honey" onclick="ErradoHoney()">HONEY</button>
+                    <button class="button" id="secret" onclick="ErradoSecret()">SECRET</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/melao.jpg">
+            <audio controls>
+                <source src="audio/melon.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="skin" onclick="ErradoSkin()">SKIN</button>
+                    <button class="button" id="push" onclick="ErradoPush()">PUSH</button>
+                    <button class="button" id="melon" onclick="AcertoMelon()">MELON</button>
+                </p>
+            </center>
+        </div>
+
+        <div>
+            <img src="frutas/melancia.jpg">
+            <audio controls>
+                <source src="audio/watermelon.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="watermelon" onclick="AcertoWatermelon()">WATERMELON</button>
+                    <button class="button" id="tea" onclick="ErradoTea()">TEA</button>
+                    <button class="button" id="key" onclick="ErradoKey()">KEY</button>
+                </p>
+            </center>
+        </div>
+
+        <div>
+            <img src="frutas/morango.jpg">
+            <audio controls>
+                <source src="audio/strawberry.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="eye" onclick="ErradoEye()">EYE</button>
+                    <button class="button" id="strawberry" onclick="AcertoStrawberry()">STRAWBERRY</button>
+                    <button class="button" id="pay" onclick="ErradoPay()">PAY</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/pera.jpg">
+            <audio controls>
+                <source src="audio/pear.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="pear" onclick="AcertoPear()">PEAR</button>
+                    <button class="button" id="life" onclick="ErradoLife()">LIFE</button>
+                    <button class="button" id="hard" onclick="ErradoHard()">HARD</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/pessego.jpg">
+            <audio controls>
+                <source src="audio/peach.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="rain" onclick="ErradoRain()">RAIN</button>
+                    <button class="button" id="free" onclick="ErradoFree()">FREE</button>
+                    <button class="button" id="peach" onclick="AcertoPeach()">PEACH</button>
+                </p>
+            </center>
+        </div>
+        <div>
+            <img src="frutas/uva.jpg">
+            <audio controls>
+                <source src="audio/grape.mpeg">
+            </audio>
+            <center>
+                <p>
+                    <button class="button" id="girl" onclick="ErradoGirl()">GIRL</button>
+                    <button class="button" id="pen" onclick="ErradoPen()">PEN</button>
+                    <button class="button" id="grape" onclick="AcertoGrape()">GRAPE</button>
+                </p>
+            </center>
+        </div>
+
+
+
+    </section>
+</div>
+</body>
+
+</html>

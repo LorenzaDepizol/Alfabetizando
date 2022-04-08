@@ -1,0 +1,56 @@
+
+h1{
+    background: -webkit-linear-gradient(#bf3ef1, rgb(226, 19, 19));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100;
+    font-family:'Metal Mania', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+img{
+   width: 80%;
+   height: 60%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* CSS FLEXBOX 1 */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* CSS GRID 1 */
+
+.conteudo{
+    margin-top: 20px;
+}
+
+.button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Metal Mania', cursive;  
+    border-radius: 10px;  
+}
+
+
+

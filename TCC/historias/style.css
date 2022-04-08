@@ -1,0 +1,375 @@
+body { 
+  font-family: 'Metal Mania', cursive;
+  background-color: white;
+  margin-top: 40px;  
+}
+
+h2 { 
+  background: -webkit-linear-gradient(#bf3ef1, rgb(226, 19, 19));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100;
+    font-family:'Metal Mania', cursive;
+    text-align: center;
+    margin-top: 10px; 
+  }
+.container { 
+  margin: 50px auto;
+}                                                  
+ 
+
+                                                  /*trescinco*/ 
+
+#trescinco {
+  position: relative;
+}
+#trescinco .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#trescinco .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 40px;
+}
+@media (max-width: 991px) {
+  #trescinco .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #trescinco .MS-content .item {
+    width: 100%;
+  }
+}
+#trescinco .MS-content .item .imgTitle {
+  position: relative;
+}
+#trescinco .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#trescinco .MS-content .item a {
+  float: right;
+  font-size: 20px;
+  font-family:'Metal Mania', cursive;
+  color: #bf3ef1;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#trescinco .MS-content .item a:hover {
+  text-shadow: 0 0 1px #bf3ef1;
+}
+#trescinco .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 120px;
+  transition: 0.15s linear;
+  color: #bf3ef1;
+}
+#trescinco .MS-controls button:hover {
+  color: #bf3ef1;
+}
+@media (max-width: 992px) {
+  #trescinco .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #trescinco .MS-controls button {
+    font-size: 20px;
+  }
+}
+#trescinco .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #trescinco .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#trescinco .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #trescinco .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
+                                                      /*seisoito*/ 
+#seisoito {
+position: relative;
+}
+#seisoito .MS-content {
+white-space: nowrap;
+overflow: hidden;
+margin: 0 5%;
+}
+#seisoito .MS-content .item {
+display: inline-block;
+width: 33.3333%;
+position: relative;
+vertical-align: top;
+overflow: hidden;
+height: 100%;
+white-space: normal;
+padding: 0 40px;
+}
+@media (max-width: 991px) {
+#seisoito .MS-content .item {
+  width: 50%;
+}
+}
+@media (max-width: 767px) {
+#seisoito .MS-content .item {
+  width: 100%;
+}
+}
+#seisoito .MS-content .item .imgTitle {
+position: relative;
+}
+#seisoito .MS-content .item .imgTitle img {
+height: auto;
+width: 100%;
+}
+#seisoito .MS-content .item a {
+float: right;
+font-size: 20px;
+font-family:'Metal Mania', cursive;
+color: #bf3ef1;
+font-weight:lighter;
+letter-spacing: 1px;
+transition: linear 0.1s;
+}
+#seisoito .MS-content .item a:hover {
+text-shadow: 0 0 1px #bf3ef1;
+}
+#seisoito .MS-controls button {
+position: absolute;
+border: none;
+background-color: transparent;
+outline: 0;
+font-size: 50px;
+top: 120px;
+transition: 0.15s linear;
+color: #bf3ef1;
+}
+#seisoito .MS-controls button:hover {
+color: #bf3ef1;
+}
+@media (max-width: 992px) {
+#seisoito .MS-controls button {
+  font-size: 30px;
+}
+}
+@media (max-width: 767px) {
+#seisoito .MS-controls button {
+  font-size: 20px;
+}
+}
+#seisoito .MS-controls .MS-left {
+left: 0px;
+}
+@media (max-width: 767px) {
+#seisoito .MS-controls .MS-left {
+  left: -10px;
+}
+}
+#seisoito .MS-controls .MS-right {
+right: 0px;
+}
+@media (max-width: 767px) {
+#seisoito .MS-controls .MS-right {
+  right: -10px;
+}
+}
+
+                                                  /*novedoze*/
+#novedoze {
+position: relative;
+}
+#novedoze .MS-content {
+white-space: nowrap;
+overflow: hidden;
+margin: 0 5%;
+}
+#novedoze .MS-content .item {
+display: inline-block;
+width: 33.3333%;
+position: relative;
+vertical-align: top;
+overflow: hidden;
+height: 100%;
+white-space: normal;
+padding: 0 40px;
+}
+@media (max-width: 991px) {
+#novedoze .MS-content .item {
+  width: 50%;
+}
+}
+@media (max-width: 767px) {
+#novedoze .MS-content .item {
+  width: 100%;
+}
+}
+#novedoze .MS-content .item .imgTitle {
+position: relative;
+}
+#novedoze .MS-content .item .imgTitle img {
+height: auto;
+width: 100%;
+}
+#novedoze .MS-content .item a {
+float: right;
+font-size: 20px;
+font-family:'Metal Mania', cursive;
+color: #bf3ef1;
+font-weight:lighter;
+letter-spacing: 1px;
+transition: linear 0.1s;
+}
+#novedoze .MS-content .item a:hover {
+text-shadow: 0 0 1px #bf3ef1;
+}
+#novedoze .MS-controls button {
+position: absolute;
+border: none;
+background-color: transparent;
+outline: 0;
+font-size: 50px;
+top: 120px;
+transition: 0.15s linear;
+color: #bf3ef1;
+}
+#novedoze .MS-controls button:hover {
+color: #bf3ef1;
+}
+@media (max-width: 992px) {
+#novedoze .MS-controls button {
+  font-size: 30px;
+}
+}
+@media (max-width: 767px) {
+#novedoze .MS-controls button {
+  font-size: 20px;
+}
+}
+#novedoze .MS-controls .MS-left {
+left: 0px;
+}
+@media (max-width: 767px) {
+#novedoze .MS-controls .MS-left {
+  left: -10px;
+}
+}
+#novedoze .MS-controls .MS-right {
+right: 0px;
+}
+@media (max-width: 767px) {
+#novedoze .MS-controls .MS-right {
+  right: -10px;
+  }
+}
+                                                    /*exer*/                                                    
+#exer {
+  position: relative;
+}
+#exer .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#exer .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 40px;
+}
+@media (max-width: 991px) {
+  #exer .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #exer .MS-content .item {
+    width: 100%;
+  }
+}
+#exer .MS-content .item .imgTitle {
+  position: relative;
+}
+#exer .MS-content .item .imgTitle img {
+  height: auto;
+  width: 100%;
+}
+#exer .MS-content .item a {
+  float: right;
+  font-size: 20px;
+  font-family:'Metal Mania', cursive;
+  color: #bf3ef1;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#exer .MS-content .item a:hover {
+  text-shadow: 0 0 1px #bf3ef1;
+}
+#exer .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  font-size: 50px;
+  top: 120px;
+  transition: 0.15s linear;
+  color: #bf3ef1;
+}
+#exer .MS-controls button:hover {
+  color: #bf3ef1;
+}
+@media (max-width: 992px) {
+  #exer .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #exer .MS-controls button {
+    font-size: 20px;
+  }
+}
+#exer .MS-controls .MS-left {
+  left: 0px;
+}
+@media (max-width: 767px) {
+  #exer .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#exer .MS-controls .MS-right {
+  right: 0px;
+}
+@media (max-width: 767px) {
+  #exer .MS-controls .MS-right {
+    right: -10px;
+  }
+}
+
+
+
+
